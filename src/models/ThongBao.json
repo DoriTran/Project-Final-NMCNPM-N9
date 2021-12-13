@@ -1,0 +1,28 @@
+{
+    "ThongBao": [
+        {
+            "KhoaHocID": "000001",
+            "ThongBaoID": 1,
+            "NoiDungThongBao": "Thứ 2 tuần nầy 20/12/2021 lớp chúng ta nghỉ",
+            "ThoiGian": "T3/14/12/2021 00h55"
+        },
+        {
+            "KhoaHocID": "000001",
+            "ThongBaoID": 2,
+            "NoiDungThongBao": "Thứ 2 tuần nầy 20/12/2021 lớp chúng ta nghỉ",
+            "ThoiGian": "T3/14/12/2021 00h55"
+        },
+        {
+            "KhoaHocID": "000001",
+            "ThongBaoID": 3,
+            "NoiDungThongBao": "Thứ 2 tuần nầy 20/12/2021 lớp chúng ta nghỉ",
+            "ThoiGian": "T3/14/12/2021 00h55"
+        },
+        {
+            "KhoaHocID": "000002",
+            "ThongBaoID": 1,
+            "NoiDungThongBao": "Thứ 2 tuần nầy 20/12/2021 lớp chúng ta nghỉ",
+            "ThoiGian": "T3/14/12/2021 00h55"
+        }
+    ]
+}

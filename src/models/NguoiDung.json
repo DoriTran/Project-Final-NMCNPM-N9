@@ -1,0 +1,28 @@
+{
+    "Users": [
+        {
+            "UserID": "00000001",
+            "TenTaiKhoan": "DongTran",
+            "HoTen": "Trần Quốc Đông",
+            "MatKhau": "012345678",
+            "GioiTinh": "Nam",
+            "NgaySinh": "30/08/2001",
+            "Email": "dongtran@gmail.com",
+            "SoDienThoai": "0123456789",
+            "DiaChi": "123 Cầu Giấy Hà Nội",
+            "Avatar": "url1"
+        },
+        {
+            "UserID": "00000002",
+            "TenTaiKhoan": "QuocAnh",
+            "HoTen": "Nguyễn Quốc Anh",
+            "MatKhau": "abcdefg",
+            "GioiTinh": "Nam",
+            "NgaySinh": "12/12/2001",
+            "Email": "quocanh@gmail.com",
+            "SoDienThoai": "0129876543",
+            "DiaChi": "456 Lý Thái Tổ Phường 1 TP HCM",
+            "Avatar": "url2"
+        }
+    ]
+}

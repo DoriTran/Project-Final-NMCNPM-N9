@@ -1,0 +1,19 @@
+{
+    "KhoaHoc": [
+        {
+            "KhoaHocID": "000001",
+            "TenKhoaHoc": "Nhập môn công nghệ phần mềm",
+            "GiangVien": "Trần Quốc Đông",
+            "MoTa": "Nhập môn công nghệ phần mềm là một bộ môn về công nghệ phần mềm\n Nó giúp ta hiểu về phần mềm",
+            "LichHoc": "08h AM Thứ 2\n08h AM Thứ 4\n08h PM thứ 6",
+            "HocPhi": "1500000",
+            "NgayBatDau": "30/08/2021",
+            "NgayKetThuc": "12/02/2022",
+            "LinkChatRoom": "URL Chat Room",
+            "LinkTaiLieu": "URL Tài Liệu",
+            "LinkVideo": "URL video",
+            "DiemDanhGia": "4.5",
+            "AnhKhoaHoc": "URL của ảnh khóa học"
+        }
+    ]
+}

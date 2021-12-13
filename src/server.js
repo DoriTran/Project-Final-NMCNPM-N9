@@ -10,7 +10,7 @@ const hbs = exphbs.create({
     defaultLayout: 'PageLayout',
     extname: 'hbs',
     helpers: {
-            ifStr(a,b, options) { if (a === b) { 
+            ifStr(a,b, options) { if (a === b) {
                 return options.fn(this);
             }
             return options.inverse(this);
