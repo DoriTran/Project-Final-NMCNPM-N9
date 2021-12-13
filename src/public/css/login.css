@@ -1,0 +1,31 @@
+body {
+    background-image: url(../resource/login.jpg);
+    background-size:100% 100%;
+    background-repeat:no-repeat; 
+}
+
+main {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.login-form {
+    font-family: 'Mali', arial, helvetica, sans-serif;
+    font-size: 20px;
+    background-color: rgb(214, 207, 207);
+    height: 400px;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.login-input {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.login-button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
