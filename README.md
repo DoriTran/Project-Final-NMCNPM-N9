@@ -1,4 +1,4 @@
->> Project nhập môn công nghệ phần mềm
+Project nhập môn công nghệ phần mềm
 ***
 Members list:
 
