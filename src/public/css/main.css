@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Mali'
+}
+
+@import url('https://fonts.googleapis.com/css?family=Mali');
+@import url('https://fonts.googleapis.com/css?family=Acme');
+
+/* Header ~ Footer */
+
+.nav-header {
+    height: 60px;
+    background-color: aliceblue;
+    font-family: 'Mali', arial, helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+.nav-footer {
+    height: 60px;
+    background-color: black;
+    font-family: 'Mali', arial, helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.nav-search-form {
+    width: 30% !important;
+}
+
+.nav-font-color {
+    color: black;
+}
+
+.contact-image {
+    border: 2px solid white;
+}
+
+/* End Header ~ Footer */
+
+/* Main */
+.text-color-black {
+    color: black !important;
+}
+
+/* Carousel */
+.carousel-width {
+    width: 85% !important;
+}
+
+.carousel {
+    border-radius: 55px 55px 55px 55px;
+    overflow: hidden;
+    border: 5px solid !important;
+    font-family: 'Mali';
+}
+
+.carousel-control-prev, .carousel-control-next {
+    max-width: 50px !important;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 50px;
+  outline: black;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  font-weight: bold;
+  font-family: 'Acme';
+  color: #88001b;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  font-weight: bold;
+  font-family: 'Acme';
+  color: #88001b;
+}
+
+.carousel-indicators li {
+    background-color: #585858;
+    background-color: rgba(70, 70, 70, 0.5);
+    width: 25% !important;
+    height: 5px !important;
+}
+  
+.carousel-indicators .active {
+    background-color: #444;
+    height: 9px !important;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 40%;
+    top: 5%;
+    left: 5%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 40%;
+    bottom: 0;
+    left: 5%;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+}
+
+.carousel-caption-header {
+    font-size: 50px !important;
+}
+
+.carousel-pill-button {
+    font-style: normal !important;
+}
+
+.text-color-yellow {
+    color: #ffca18;
+}
+
+.text-color-darkblue {
+    color: #3f48cc;
+}
+
+.badge {
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 100%;
+    font-weight: 1;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+    border: 1px solid !important;
+}
+
+/* End Carousel */
+
+/* Main Content */
+.testimonial-group > .row {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.testimonial-group > .row > .col-sm-4 {
+    display: inline-block;
+    float: none;
+}
+  
+.col-sm-4 { color: #fff; font-size: 48px; padding-bottom: 20px; padding-top: 18px; }
+.col-sm-4:nth-child(3n+1) { background: #c69; }
+.col-sm-4:nth-child(3n+2) { background: #9c6; }
+.col-sm-4:nth-child(3n+3) { background: #69c; }
+
+.card-height {
+    height: 400px !important;
+}
+
+/* End Main Content */
+
+main {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
