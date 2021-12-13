@@ -1,22 +1,11 @@
 const { default: axios } = require('axios');
 const express = require('express');
 const router = express.Router();
-var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 
-router.get('/', async (req, res) => {  
-    res.render('addUser', {
-        layout: 'PageLayout',
-    })
-});
-
-router.post('/signup', (req, res) => {
-    res.render('main', {
+router.get('/', (req, res) => {  
+    res.render('login_signup', {
         layout: 'login_signup_layout'
-    })
-});
-
-router.post('/signin', (req, res) => {
-
+    });
 });
 
 module.exports = router;
