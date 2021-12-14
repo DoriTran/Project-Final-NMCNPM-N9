@@ -23,8 +23,8 @@ app.set('view engine','hbs' );
 app.set("views", "./src/views");
 
 app.get('/', (req, res) => {
-    res.render('main', {
-        layout: 'main_layout'
+    res.render('all_courses', {
+        layout: 'all_courses_layout'
     })
 });
 

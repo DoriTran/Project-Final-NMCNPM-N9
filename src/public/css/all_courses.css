@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Mali'
+}
+
+@import url('https://fonts.googleapis.com/css?family=Mali');
+@import url('https://fonts.googleapis.com/css?family=Acme');
+
+/* Header ~ Footer */
+
+.nav-header {
+    height: 60px;
+    background-color: aliceblue;
+    font-family: 'Mali', arial, helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+.nav-footer {
+    height: 60px;
+    background-color: black;
+    font-family: 'Mali', arial, helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.nav-search-form {
+    width: 30% !important;
+}
+
+.nav-font-color {
+    color: black;
+}
+
+.contact-image {
+    border: 2px solid white;
+}
+
+/* End Header ~ Footer */
+
+/* Main */
+.text-color-black {
+    color: black !important;
+}
+  
+.col-sm-3 { 
+    color: #fff; 
+    padding-bottom: 15px; 
+    padding-top: 15px; 
+    line-height: 0.5;
+    max-width: 33% !important;
+}
+.col-sm-3:nth-child(3n+1) { background: rgb(224, 158, 191); }
+.col-sm-3:nth-child(3n+2) { background: rgb(164, 198, 131); }
+.col-sm-3:nth-child(3n+3) { background: rgb(127, 166, 204); }
+
+.card-padding {
+    padding-top: 10px;
+    padding-left: 3px !important;
+}
+
+.subcard-padding {
+    padding-top: 1px;
+    padding-left: 3px !important;
+}
+
+.maincard-height {
+    height: 300px !important;
+}
+
+.maincard-text {
+    font-size: 18px;
+    color:black !important;
+    width: 18rem;
+}
+
+.subcard-text{
+    font-size: 14px;
+    color:rgb(64, 64, 64) !important;
+    width: 18rem;
+}
+
+/* End Main Content */
+
+main {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
