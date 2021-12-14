@@ -165,14 +165,49 @@
     display: inline-block;
     float: none;
 }
-  
-.col-sm-4 { color: #fff; font-size: 48px; padding-bottom: 20px; padding-top: 18px; }
-.col-sm-4:nth-child(3n+1) { background: #c69; }
-.col-sm-4:nth-child(3n+2) { background: #9c6; }
-.col-sm-4:nth-child(3n+3) { background: #69c; }
 
-.card-height {
-    height: 400px !important;
+.top-fixed {
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
+}
+  
+.col-sm-4 { 
+    color: #fff; 
+    padding-bottom: 15px; 
+    padding-top: 15px; 
+    max-width: 25% !important;
+    line-height: 0.5;
+}
+.col-sm-4:nth-child(3n+1) { background: rgb(224, 158, 191); }
+.col-sm-4:nth-child(3n+2) { background: rgb(164, 198, 131); }
+.col-sm-4:nth-child(3n+3) { background: rgb(127, 166, 204); }
+
+.card-padding {
+    padding-top: 10px;
+    padding-left: 3px !important;
+}
+
+.subcard-padding {
+    padding-top: 1px;
+    padding-left: 3px !important;
+}
+
+.maincard-height {
+    height: 300px !important;
+}
+
+.maincard-text {
+    font-size: 18px;
+    color:black !important;
+    width: 18rem;
+}
+
+.subcard-text{
+    font-size: 14px;
+    color:rgb(64, 64, 64) !important;
+    width: 18rem;
 }
 
 /* End Main Content */
