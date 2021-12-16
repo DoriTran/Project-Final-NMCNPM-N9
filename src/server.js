@@ -24,7 +24,7 @@ app.set("views", "./src/views");
 
 app.get('/', (req, res) => {
     res.render('personalpage', {
-        layout: 'personalpage_layout'
+        layout: 'main_layout'
     })
 });
 
