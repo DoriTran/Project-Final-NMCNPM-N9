@@ -1,28 +1,364 @@
 {
-    "ThongBao": [
-        {
-            "KhoaHocID": "000001",
-            "ThongBaoID": 1,
-            "NoiDungThongBao": "Thứ 2 tuần nầy 20/12/2021 lớp chúng ta nghỉ",
-            "ThoiGian": "T3/14/12/2021 00h55"
-        },
-        {
-            "KhoaHocID": "000001",
-            "ThongBaoID": 2,
-            "NoiDungThongBao": "Thứ 2 tuần nầy 20/12/2021 lớp chúng ta nghỉ",
-            "ThoiGian": "T3/14/12/2021 00h55"
-        },
-        {
-            "KhoaHocID": "000001",
-            "ThongBaoID": 3,
-            "NoiDungThongBao": "Thứ 2 tuần nầy 20/12/2021 lớp chúng ta nghỉ",
-            "ThoiGian": "T3/14/12/2021 00h55"
-        },
-        {
-            "KhoaHocID": "000002",
-            "ThongBaoID": 1,
-            "NoiDungThongBao": "Thứ 2 tuần nầy 20/12/2021 lớp chúng ta nghỉ",
-            "ThoiGian": "T3/14/12/2021 00h55"
-        }
-    ]
+	"ThongBao:": [
+		{
+			"KhoaHocID": "000001",
+			"ThongBaoID": 1,
+			"NoiDungThongBao": "Thong bao 1",
+			"ThoiGian": "T3/14/12/2021 00h00"
+		},
+		{
+			"KhoaHocID": "000001",
+			"ThongBaoID": 2,
+			"NoiDungThongBao": "Thong bao 2",
+			"ThoiGian": "T3/14/12/2021 00h30"
+		},
+		{
+			"KhoaHocID": "000001",
+			"ThongBaoID": 3,
+			"NoiDungThongBao": "Thong bao 3",
+			"ThoiGian": "T3/14/12/2021 01h00"
+		},
+		{
+			"KhoaHocID": "000002",
+			"ThongBaoID": 1,
+			"NoiDungThongBao": "Thong bao 1",
+			"ThoiGian": "T3/15/12/2021 00h00"
+		},
+		{
+			"KhoaHocID": "000002",
+			"ThongBaoID": 2,
+			"NoiDungThongBao": "Thong bao 2",
+			"ThoiGian": "T3/15/12/2021 00h30"
+		},
+		{
+			"KhoaHocID": "000002",
+			"ThongBaoID": 3,
+			"NoiDungThongBao": "Thong bao 3",
+			"ThoiGian": "T3/15/12/2021 01h00"
+		},
+		{
+			"KhoaHocID": "000003",
+			"ThongBaoID": 1,
+			"NoiDungThongBao": "Thong bao 1",
+			"ThoiGian": "T3/16/12/2021 00h00"
+		},
+		{
+			"KhoaHocID": "000003",
+			"ThongBaoID": 2,
+			"NoiDungThongBao": "Thong bao 2",
+			"ThoiGian": "T3/16/12/2021 00h30"
+		},
+		{
+			"KhoaHocID": "000003",
+			"ThongBaoID": 3,
+			"NoiDungThongBao": "Thong bao 3",
+			"ThoiGian": "T3/16/12/2021 01h00"
+		},
+		{
+			"KhoaHocID": "000004",
+			"ThongBaoID": 1,
+			"NoiDungThongBao": "Thong bao 1",
+			"ThoiGian": "T3/14/12/2021 00h00"
+		},
+		{
+			"KhoaHocID": "000004",
+			"ThongBaoID": 2,
+			"NoiDungThongBao": "Thong bao 2",
+			"ThoiGian": "T3/14/12/2021 00h30"
+		},
+		{
+			"KhoaHocID": "000004",
+			"ThongBaoID": 3,
+			"NoiDungThongBao": "Thong bao 3",
+			"ThoiGian": "T3/14/12/2021 01h00"
+		},
+		{
+			"KhoaHocID": "000005",
+			"ThongBaoID": 1,
+			"NoiDungThongBao": "Thong bao 1",
+			"ThoiGian": "T3/15/12/2021 00h00"
+		},
+		{
+			"KhoaHocID": "000005",
+			"ThongBaoID": 2,
+			"NoiDungThongBao": "Thong bao 2",
+			"ThoiGian": "T3/15/12/2021 00h30"
+		},
+		{
+			"KhoaHocID": "000005",
+			"ThongBaoID": 3,
+			"NoiDungThongBao": "Thong bao 3",
+			"ThoiGian": "T3/15/12/2021 01h00"
+		},
+		{
+			"KhoaHocID": "000006",
+			"ThongBaoID": 1,
+			"NoiDungThongBao": "Thong bao 1",
+			"ThoiGian": "T3/16/12/2021 00h00"
+		},
+		{
+			"KhoaHocID": "000006",
+			"ThongBaoID": 2,
+			"NoiDungThongBao": "Thong bao 2",
+			"ThoiGian": "T3/16/12/2021 00h30"
+		},
+		{
+			"KhoaHocID": "000006",
+			"ThongBaoID": 3,
+			"NoiDungThongBao": "Thong bao 3",
+			"ThoiGian": "T3/16/12/2021 01h00"
+		},
+		{
+			"KhoaHocID": "000007",
+			"ThongBaoID": 1,
+			"NoiDungThongBao": "Thong bao 1",
+			"ThoiGian": "T3/14/12/2021 00h00"
+		},
+		{
+			"KhoaHocID": "000007",
+			"ThongBaoID": 2,
+			"NoiDungThongBao": "Thong bao 2",
+			"ThoiGian": "T3/14/12/2021 00h30"
+		},
+		{
+			"KhoaHocID": "000007",
+			"ThongBaoID": 3,
+			"NoiDungThongBao": "Thong bao 3",
+			"ThoiGian": "T3/14/12/2021 01h00"
+		},
+		{
+			"KhoaHocID": "000008",
+			"ThongBaoID": 1,
+			"NoiDungThongBao": "Thong bao 1",
+			"ThoiGian": "T3/15/12/2021 00h00"
+		},
+		{
+			"KhoaHocID": "000008",
+			"ThongBaoID": 2,
+			"NoiDungThongBao": "Thong bao 2",
+			"ThoiGian": "T3/15/12/2021 00h30"
+		},
+		{
+			"KhoaHocID": "000008",
+			"ThongBaoID": 3,
+			"NoiDungThongBao": "Thong bao 3",
+			"ThoiGian": "T3/15/12/2021 01h00"
+		},
+		{
+			"KhoaHocID": "000009",
+			"ThongBaoID": 1,
+			"NoiDungThongBao": "Thong bao 1",
+			"ThoiGian": "T3/16/12/2021 00h00"
+		},
+		{
+			"KhoaHocID": "000009",
+			"ThongBaoID": 2,
+			"NoiDungThongBao": "Thong bao 2",
+			"ThoiGian": "T3/16/12/2021 00h30"
+		},
+		{
+			"KhoaHocID": "000009",
+			"ThongBaoID": 3,
+			"NoiDungThongBao": "Thong bao 3",
+			"ThoiGian": "T3/16/12/2021 01h00"
+		},
+		{
+			"KhoaHocID": "0000010",
+			"ThongBaoID": 1,
+			"NoiDungThongBao": "Thong bao 1",
+			"ThoiGian": "T3/14/12/2021 00h00"
+		},
+		{
+			"KhoaHocID": "0000010",
+			"ThongBaoID": 2,
+			"NoiDungThongBao": "Thong bao 2",
+			"ThoiGian": "T3/14/12/2021 00h30"
+		},
+		{
+			"KhoaHocID": "0000010",
+			"ThongBaoID": 3,
+			"NoiDungThongBao": "Thong bao 3",
+			"ThoiGian": "T3/14/12/2021 01h00"
+		},
+		{
+			"KhoaHocID": "0000011",
+			"ThongBaoID": 1,
+			"NoiDungThongBao": "Thong bao 1",
+			"ThoiGian": "T3/15/12/2021 00h00"
+		},
+		{
+			"KhoaHocID": "0000011",
+			"ThongBaoID": 2,
+			"NoiDungThongBao": "Thong bao 2",
+			"ThoiGian": "T3/15/12/2021 00h30"
+		},
+		{
+			"KhoaHocID": "0000011",
+			"ThongBaoID": 3,
+			"NoiDungThongBao": "Thong bao 3",
+			"ThoiGian": "T3/15/12/2021 01h00"
+		},
+		{
+			"KhoaHocID": "0000012",
+			"ThongBaoID": 1,
+			"NoiDungThongBao": "Thong bao 1",
+			"ThoiGian": "T3/16/12/2021 00h00"
+		},
+		{
+			"KhoaHocID": "0000012",
+			"ThongBaoID": 2,
+			"NoiDungThongBao": "Thong bao 2",
+			"ThoiGian": "T3/16/12/2021 00h30"
+		},
+		{
+			"KhoaHocID": "0000012",
+			"ThongBaoID": 3,
+			"NoiDungThongBao": "Thong bao 3",
+			"ThoiGian": "T3/16/12/2021 01h00"
+		},
+		{
+			"KhoaHocID": "0000013",
+			"ThongBaoID": 1,
+			"NoiDungThongBao": "Thong bao 1",
+			"ThoiGian": "T3/14/12/2021 00h00"
+		},
+		{
+			"KhoaHocID": "0000013",
+			"ThongBaoID": 2,
+			"NoiDungThongBao": "Thong bao 2",
+			"ThoiGian": "T3/14/12/2021 00h30"
+		},
+		{
+			"KhoaHocID": "0000013",
+			"ThongBaoID": 3,
+			"NoiDungThongBao": "Thong bao 3",
+			"ThoiGian": "T3/14/12/2021 01h00"
+		},
+		{
+			"KhoaHocID": "0000014",
+			"ThongBaoID": 1,
+			"NoiDungThongBao": "Thong bao 1",
+			"ThoiGian": "T3/15/12/2021 00h00"
+		},
+		{
+			"KhoaHocID": "0000014",
+			"ThongBaoID": 2,
+			"NoiDungThongBao": "Thong bao 2",
+			"ThoiGian": "T3/15/12/2021 00h30"
+		},
+		{
+			"KhoaHocID": "0000014",
+			"ThongBaoID": 3,
+			"NoiDungThongBao": "Thong bao 3",
+			"ThoiGian": "T3/15/12/2021 01h00"
+		},
+		{
+			"KhoaHocID": "0000015",
+			"ThongBaoID": 1,
+			"NoiDungThongBao": "Thong bao 1",
+			"ThoiGian": "T3/16/12/2021 00h00"
+		},
+		{
+			"KhoaHocID": "0000015",
+			"ThongBaoID": 2,
+			"NoiDungThongBao": "Thong bao 2",
+			"ThoiGian": "T3/16/12/2021 00h30"
+		},
+		{
+			"KhoaHocID": "0000015",
+			"ThongBaoID": 3,
+			"NoiDungThongBao": "Thong bao 3",
+			"ThoiGian": "T3/16/12/2021 01h00"
+		},
+		{
+			"KhoaHocID": "0000016",
+			"ThongBaoID": 1,
+			"NoiDungThongBao": "Thong bao 1",
+			"ThoiGian": "T3/14/12/2021 00h00"
+		},
+		{
+			"KhoaHocID": "0000016",
+			"ThongBaoID": 2,
+			"NoiDungThongBao": "Thong bao 2",
+			"ThoiGian": "T3/14/12/2021 00h30"
+		},
+		{
+			"KhoaHocID": "0000016",
+			"ThongBaoID": 3,
+			"NoiDungThongBao": "Thong bao 3",
+			"ThoiGian": "T3/14/12/2021 01h00"
+		},
+		{
+			"KhoaHocID": "0000017",
+			"ThongBaoID": 1,
+			"NoiDungThongBao": "Thong bao 1",
+			"ThoiGian": "T3/15/12/2021 00h00"
+		},
+		{
+			"KhoaHocID": "0000017",
+			"ThongBaoID": 2,
+			"NoiDungThongBao": "Thong bao 2",
+			"ThoiGian": "T3/15/12/2021 00h30"
+		},
+		{
+			"KhoaHocID": "0000017",
+			"ThongBaoID": 3,
+			"NoiDungThongBao": "Thong bao 3",
+			"ThoiGian": "T3/15/12/2021 01h00"
+		},
+		{
+			"KhoaHocID": "0000018",
+			"ThongBaoID": 1,
+			"NoiDungThongBao": "Thong bao 1",
+			"ThoiGian": "T3/16/12/2021 00h00"
+		},
+		{
+			"KhoaHocID": "0000018",
+			"ThongBaoID": 2,
+			"NoiDungThongBao": "Thong bao 2",
+			"ThoiGian": "T3/16/12/2021 00h30"
+		},
+		{
+			"KhoaHocID": "0000018",
+			"ThongBaoID": 3,
+			"NoiDungThongBao": "Thong bao 3",
+			"ThoiGian": "T3/16/12/2021 01h00"
+		},
+		{
+			"KhoaHocID": "0000019",
+			"ThongBaoID": 1,
+			"NoiDungThongBao": "Thong bao 1",
+			"ThoiGian": "T3/14/12/2021 00h00"
+		},
+		{
+			"KhoaHocID": "0000019",
+			"ThongBaoID": 2,
+			"NoiDungThongBao": "Thong bao 2",
+			"ThoiGian": "T3/14/12/2021 00h30"
+		},
+		{
+			"KhoaHocID": "0000019",
+			"ThongBaoID": 3,
+			"NoiDungThongBao": "Thong bao 3",
+			"ThoiGian": "T3/14/12/2021 01h00"
+		},
+		{
+			"KhoaHocID": "0000020",
+			"ThongBaoID": 1,
+			"NoiDungThongBao": "Thong bao 1",
+			"ThoiGian": "T3/15/12/2021 00h00"
+		},
+		{
+			"KhoaHocID": "0000020",
+			"ThongBaoID": 2,
+			"NoiDungThongBao": "Thong bao 2",
+			"ThoiGian": "T3/15/12/2021 00h30"
+		},
+		{
+			"KhoaHocID": "0000020",
+			"ThongBaoID": 3,
+			"NoiDungThongBao": "Thong bao 3",
+			"ThoiGian": "T3/15/12/2021 01h00"
+		}
+	]
 }
