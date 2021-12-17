@@ -1,0 +1,17 @@
+Server:
+/login
+/signup
+/home
+
+Controller - search:
+/search/all
+/
+
+Controller - home:
+/home/
+
+Controller - course:
+/course/
+
+Controller - user:
+/user/
