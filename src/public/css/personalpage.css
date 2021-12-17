@@ -71,3 +71,10 @@ main {
     margin-bottom: 20px;
     width:40%;
 }
+
+.content-form {
+    font-family: 'Mali', arial, helvetica, sans-serif;
+    font-size: 20px;
+    background-color: rgb(243, 241, 241);
+    height: 300px;
+}
