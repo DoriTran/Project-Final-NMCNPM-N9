@@ -32,6 +32,18 @@ class HocVien_KhoaHoc {
         HocVienKhoaHoc.push(tmp);
         HocVienKhoaHoc.upload();
     }
+
+    getCourseByUser(UserID) {
+        let tmp;
+        for (var i = 0; i < HocVienKhoaHoc.HocVien_KhoaHoc.length; i++)
+        {
+            if(HocVienKhoaHoc.HocVien_KhoaHoc[i].UserID === UserID)
+            {
+                tmp += HocVienKhoaHoc.HocVien_KhoaHoc[i];
+            }
+        }
+        return tmp;
+    }
 }
 
 module.exports = new HocVien_KhoaHoc();
