@@ -88,32 +88,59 @@
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                                        <h5 class="modal-title" id="exampleModalLabel">Chỉnh sửa thông tin khóa học</h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                         </button>
                                     </div>
                                     <div class="modal-body">
-                                        <form>
+                                        <form action="/course/update" method="post">
                                             <div class="form-group">
-                                                <label for="recipient-name" class="col-form-label">Recipient:</label>
-                                                <input type="text" class="form-control" id="recipient-name">
+                                                <label for="tenkhoahoc" class="col-form-label">Tên khóa học:</label>
+                                                <input type="text" class="form-control" id="tenkhoahoc" value="{{ TenKhoaHoc }}">
                                             </div>
                                             <div class="form-group">
-                                                <label for="message-text" class="col-form-label">Message:</label>
-                                                <textarea class="form-control" id="message-text"></textarea>
+                                                <label for="mota" class="col-form-label">Mô tả:</label>
+                                                <textarea class="form-control" id="mota" value="{{ MoTa }}"></textarea>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="lichhoc" class="col-form-label">Lịch học:</label>
+                                                <textarea class="form-control" id="lichhoc" value="{{ LichHoc5 }}"></textarea>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="hocphi" class="col-form-label">Tên khóa học:</label>
+                                                <input type="number" class="form-control" id="hocphi" value="{{ HocPhi }}">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="ngayketthuc" class="col-form-label">Ngày bắt đầu - Ngày kết thúc:</label>
+                                                <input type="text" class="form-control" id="ngaybatdau" value="{{ NgayBatDau }}" disabled>
+                                                <input type="text" class="form-control" id="ngayketthuc" value="{{ NgayKetThuc }}">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="linkchatroom" class="col-form-label">LinkChatRoom:</label>
+                                                <input type="text" class="form-control" id="linkchatroom" value="{{ LinkChatRoom }}">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="linktailieu" class="col-form-label">LinkTaiLieu:</label>
+                                                <input type="text" class="form-control" id="linktailieu" value="{{ LinkTaiLieu }}">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="linkvideo" class="col-form-label">LinkVideo:</label>
+                                                <input type="text" class="form-control" id="linkvideo" value="{{ LinkVideo }}">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="linkanhkhoahoc" class="col-form-label">Link ảnh khóa học:</label>
+                                                <input type="text" class="form-control" id="linkanhkhoahoc" value="{{ LinkAnh }}">
                                             </div>
                                         </form>
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary"
-                                            data-dismiss="modal">Close</button>
-                                        <button type="button" class="btn btn-primary">Send message</button>
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Update</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <a href="#" class="card-link">Chỉnh sửa thông tin khóa học</a>
                     </div>
                 </div>
             </div>
