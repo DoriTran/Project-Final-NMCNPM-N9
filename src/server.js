@@ -22,13 +22,22 @@ app.engine('hbs', hbs.engine);
 app.set('view engine','hbs' );
 app.set("views", "./src/views");
 
-app.get('/', (req, res) => {
-    res.render('personalpage', {
-        layout: 'sub_layout'
-    })
-});
+/*
+    Router Module
+*/
+const route_login_post = require('./routers/post.login');
+const route_register_post = require('./routers/post.register');
+const route_home_get = require('./routers/get.home');
+const route_course = require('./routers/get.Course');
+const route_user = require('./routers/get.User');
 
-app.use('/account', require('./controllers/account.C'));
+app.use('/', route_login_post);
+app.use('/', route_register_post);
+app.use('/', route_home_get);
+app.use('/', route_course);
+app.use('/', route_user);
+
+// app.use('/account', require('./controllers/account.C'));
 
 app.use(express.static(__dirname + '/public'));
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
