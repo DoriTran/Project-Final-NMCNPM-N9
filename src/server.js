@@ -7,7 +7,7 @@ app.use(express.urlencoded({
 
 // >#> Handlebar Framework
 const hbs = exphbs.create({
-    defaultLayout: 'PageLayout',
+    defaultLayout: 'login_signup_layout',
     extname: 'hbs',
     helpers: {
             ifStr(a,b, options) { if (a === b) {
